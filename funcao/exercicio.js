@@ -96,12 +96,8 @@ function bhaskara (ax2, bx, c) {
     resultados.push(x1)
     resultados.push(x2)
     return resultados   
+    console.log(delta())
 }
 
 console.log(bhaskara(1, 3, 2))
 console.log(bhaskara(3, 1, 2))
-    }
-
-    console.log(delta())
-
-}
