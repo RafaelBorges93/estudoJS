@@ -9,6 +9,9 @@ setTimeout(function () {
     console.log('Cancelando Tarefa 1!')
 }, 20000)
 
+// setImmediate
+// setIntervals
+
 const regra = new schedule.RecurrenceRule()
 regra.dayOfWeek = [new schedule.Range(1, 5)]
 regra.hour = 19
